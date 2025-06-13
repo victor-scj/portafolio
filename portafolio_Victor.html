@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/portafolio_victor.css/portafolio.css">
+  <title>Mi Portafolio Personal</title>
+</head>
+<body>
+   <div class="contenedor">
+  <!-- Encabezado -->
+  <header>
+    <h1>Victor Javier Sandoya Campos</h1>
+    <p>Desarrollador Web | Apasionado por la tecnología</p>
+    <img src="/imagen/IMG_20230827_211407_366.jpg" alt="Foto de Victor Sandoya">
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <a href="#sobremi">Sobre mí</a>
+    <a href="#intereses">Intereses</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#multimedia">Presentación</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- Sección Sobre mí -->
+  <section id="sobremi">
+    <h2>Sobre mí</h2>
+    <p>
+      Hola, soy <strong>Victor Sandoya</strong>, un joven <em>apasionado por el desarrollo web</em> y la tecnología. Me gusta aprender cosas nuevas y colaborar en proyectos innovadores. <mark>Mi meta es convertirme en un desarrollador full-stack profesional</mark>.
+    </p>
+  </section>
+
+  <!-- Lista de intereses o logros -->
+  <section id="intereses">
+    <h2>Mis intereses</h2>
+    <ul>
+      <li>💻 Programación</li>
+      <li>🎮 Videojuegos</li>
+      <li>📚 Lectura</li>
+      <li>🌍 Viajar y conocer nuevas culturas</li>
+    </ul>
+  </section>
+
+  <!-- Tabla de habilidades -->
+  <section id="habilidades">
+    <h2>Tabla de habilidades</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Habilidad</th>
+          <th>Nivel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>Medio</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Intermedio</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Básico</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Actualizado en 2025</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <!-- Multimedia -->
+  <section id="multimedia">
+    <h2>Presentación personal</h2>
+    <audio controls>
+     <source src="/audio/presentacion.mp4">
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto">
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo" required><br><br>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="10" max="100" required><br><br>
+
+      <label for="genero">Género:</label>
+        <select id="genero" name="genero" required>
+         <option value="">Selecciona</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select><br><br>
+
+     <label>Intereses:</label><br>
+     <input type="checkbox" name="intereses" value="programacion"> Programación<br>
+     <input type="checkbox" name="intereses" value="diseño"> Diseño<br>
+     <input type="checkbox" name="intereses" value="musica"> Música<br><br>
+ 
+     <label for="comentarios">Comentarios:</label><br>
+       <textarea id="comentarios" name="comentarios" rows="4" cols="30" required></textarea><br><br>
+
+       <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+     <p>&copy; 2025 Victor Sandoya. Todos los derechos reservados.</p>
+      <p>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a> |
+        <a href="https://x.com/Jsandoyac" target="_blank">Twitter</a> |
+    
+     </p>
+   </footer>
+
+</body>
+</html>
